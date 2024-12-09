@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Passkey Day - Passkey Information Hub</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/infographics.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">#worldpasskeyday</div>
+        <div class="nav-items">
+          <button id="theme-toggle" aria-label="Toggle theme">
+            <i data-feather="sun" class="light-icon"></i>
+            <i data-feather="moon" class="dark-icon"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero section-transition">
+        <div class="container">
+          <h1 class="fade-in">World Passkey Day 2025</h1>
+          <div class="hero-tagline">Thursday, May 1st, 2025</div>
+          <p class="hero-subtitle">
+            Join us in celebrating the annual transformation of digital security
+          </p>
+          <a href="https://fidoalliance.org/passkeys/" target="_blank" rel="noopener" class="cta-button pulse">Learn About Passkeys</a>
+        </div>
+      </section>
+
+      <section class="tab-container">
+        <div class="container">
+          <div class="tab-navigation">
+            <button class="tab-button active" data-tab="mission">Our Mission</button>
+            <button class="tab-button" data-tab="event">Event Resources</button>
+            <button class="tab-button" data-tab="brand-kit">Brand Kit</button>
+          </div>
+
+          <div class="tab-content">
+            <div class="tab-panel active" id="mission-panel">
+              <div class="mission-grid">
+                <div class="mission-card content-section">
+                  <i data-feather="target"></i>
+                  <h3>Transform Password Day</h3>
+                  <p>Evolving from password management to passwordless authentication</p>
+                </div>
+                <div class="mission-card content-section">
+                  <i data-feather="calendar"></i>
+                  <h3>Annual Celebration</h3>
+                  <p>Committed to yearly progress in digital security adoption</p>
+                </div>
+                <div class="mission-card content-section">
+                  <i data-feather="lock"></i>
+                  <h3>Future Vision</h3>
+                  <p>Building a world free from traditional password vulnerabilities</p>
+                </div>
+                <div class="mission-card content-section">
+                  <i data-feather="compass"></i>
+                  <h3>Innovation Hub</h3>
+                  <p>Exploring cutting-edge authentication technologies</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-panel" id="event-panel">
+              <div class="resources-grid">
+                <div class="resource-card">
+                  <i data-feather="file-text"></i>
+                  <h3>Press Release Template</h3>
+                  <p>Official press release template for World Passkey Day</p>
+                  <a href="#" class="resource-link">Download</a>
+                </div>
+                <div class="resource-card">
+                  <i data-feather="image"></i>
+                  <h3>Social Media Kit</h3>
+                  <p>Graphics and templates for social media promotion</p>
+                  <a href="#" class="resource-link">Download</a>
+                </div>
+                <div class="resource-card">
+                  <i data-feather="monitor"></i>
+                  <h3>Event Planning Guide</h3>
+                  <p>Resources for organizing local WPKD events</p>
+                  <a href="#" class="resource-link">Download</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-panel" id="brand-kit-panel">
+              <div class="coming-soon-container">
+                <i data-feather="package"></i>
+                <h3>Brand Kit Coming Soon</h3>
+                <p>Our comprehensive brand guidelines and assets will be available shortly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-separator"></div>
+
+      <section class="passkey-info section-transition">
+        <div class="container">
+          <div class="passkey-intro">
+            <h3>Understanding Passkeys</h3>
+            <p>Passkeys are the next evolution in authentication, providing a secure and convenient way to access your accounts without traditional passwords. They use public-key cryptography to protect against phishing and data breaches while offering a seamless user experience.</p>
+          </div>
+          
+          <div class="benefits-grid">
+            <div class="benefit-card">
+              <i data-feather="shield"></i>
+              <h3>Enhanced Security</h3>
+              <p>FIDO2 certified security that eliminates phishing and credential theft</p>
+              <a href="https://fidoalliance.org/fido2/" class="resource-link">Learn More</a>
+            </div>
+            <div class="benefit-card">
+              <i data-feather="smartphone"></i>
+              <h3>Cross-Platform</h3>
+              <p>Works seamlessly across all major platforms and browsers</p>
+              <a href="https://passkeys.dev/docs/reference/compatibility/" class="resource-link">View Support</a>
+            </div>
+            <div class="benefit-card">
+              <i data-feather="users"></i>
+              <h3>User-Friendly</h3>
+              <p>Simple biometric authentication replaces complex passwords</p>
+              <a href="https://www.w3.org/TR/webauthn-2/#sctn-use-cases" class="resource-link">See Examples</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-separator"></div>
+
+      <section id="purchase" class="section-transition">
+        <div class="container">
+            <h2>Get Your Hardware Security Keys</h2>
+            <div class="store-grid">
+                <div class="store-card">
+                    <i data-feather="key"></i>
+                    <h3>Yubico Security Keys</h3>
+                    <p>Industry-leading FIDO2 certified security keys</p>
+                    <a href="https://www.yubico.com/store/" class="store-button" target="_blank" rel="noopener">Shop Yubico</a>
+                </div>
+                <div class="store-card">
+                    <i data-feather="shield"></i>
+                    <h3>Google Titan Keys</h3>
+                    <p>Google's trusted security key solution</p>
+                    <a href="https://store.google.com/product/titan_security_key" class="store-button" target="_blank" rel="noopener">Shop Google</a>
+                </div>
+            </div>
+            <div class="purchase-note">
+                <p><i data-feather="info"></i> We recommend purchasing two keys for backup purposes. <a href="https://www.yubico.com/products/spare/" target="_blank" rel="noopener">Learn why</a></p>
+            </div>
+        </div>
+    </section>
+
+      <div class="section-separator"></div>
+
+      <footer class="section-transition">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-section">
+              <h4>#worldpasskeyday</h4>
+              <p>Securing the future of authentication</p>
+            </div>
+            <div class="footer-section">
+              <h4>Documentation</h4>
+              <a href="https://fidoalliance.org/passkeys/" target="_blank" rel="noopener">FIDO Alliance</a>
+              <a href="https://webauthn.guide/" target="_blank" rel="noopener">WebAuthn Guide</a>
+              <a href="https://www.w3.org/TR/webauthn-2/" target="_blank" rel="noopener">W3C Standards</a>
+            </div>
+            <div class="footer-section">
+              <h4>Technical Resources</h4>
+              <a href="https://webauthn.guide/" target="_blank" rel="noopener">WebAuthn Guide</a>
+              <a href="https://developers.google.com/identity/passkeys" target="_blank" rel="noopener">Implementation Guide</a>
+              <a href="https://www.w3.org/TR/webauthn-2/" target="_blank" rel="noopener">W3C Specification</a>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2024 World Passkey Day. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+      <script src="js/main.js"></script>
+      <script>
+        feather.replace();
+      </script>
+  </body>
+</html>
